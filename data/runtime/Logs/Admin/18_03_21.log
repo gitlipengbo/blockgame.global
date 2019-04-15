@@ -1,0 +1,428 @@
+[ 2018-03-21T14:39:01+08:00 ] 119.131.152.104 /admin/setting/clearcache
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000569s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000596s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-03-21T14:39:05+08:00 ] 119.131.152.104 /index.php/admin/index/serverjs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000443s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000452s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_menu`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2018-03-21T14:40:53+08:00 ] 113.222.230.181 /Admin/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000445s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000461s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 0 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 109 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 110 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 111 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 113 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 115 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 139 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 149 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 188 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 189 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 190 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 232 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 225 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 226 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 227 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 40 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 41 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 42 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 221 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 222 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 223 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 228 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: Think /www/wwwroot/weixinnnnnnn/data/runtime/Cache/Admin/83826091df09ec5343ebab0eb69c1bdf.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-03-21T14:40:53+08:00 ] 113.222.230.181 /Admin/Main/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000509s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000496s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: select VERSION() as version [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-21T14:41:07+08:00 ] 113.222.230.181 /?g=admin&upw=e4fff6b6b9e32a6137954ed47be6de5f
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000437s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000455s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 0 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 109 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 110 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 111 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 113 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 115 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 139 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 149 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 188 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 189 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 190 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 232 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 225 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 226 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 227 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 40 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 41 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 42 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 221 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 222 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 223 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 228 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: Think /www/wwwroot/weixinnnnnnn/data/runtime/Cache/Admin/83826091df09ec5343ebab0eb69c1bdf.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-03-21T14:41:07+08:00 ] 113.222.230.181 /Admin/Main/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000450s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000463s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: select VERSION() as version [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-03-21T14:42:54+08:00 ] 119.131.152.104 /Admin/User/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000471s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000503s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jz_users` WHERE `user_type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_type` = 1 ORDER BY create_time DESC LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_role`  [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-03-21T14:43:58+08:00 ] 119.131.152.104 /Admin/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000560s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000589s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-03-21T14:44:00+08:00 ] 119.131.152.104 /Admin/Setting/site
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000568s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000606s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2018-03-21T14:44:04+08:00 ] 119.131.152.104 /Admin/User/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000560s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000571s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jz_users` WHERE `user_type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_type` = 1 ORDER BY create_time DESC LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_role`  [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-03-21T14:44:06+08:00 ] 119.131.152.104 /Admin/user/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000502s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000542s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_role` WHERE `status` = 1 ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-03-21T14:44:25+08:00 ] 119.131.152.104 /Admin/User/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000560s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000583s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/weixinnnnnnn/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `jz_users` WHERE `user_login` = 'huang123' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_email` = '1216714825@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /www/wwwroot/weixinnnnnnn/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `jz_users` (`user_login`,`user_pass`,`user_email`,`create_time`) VALUES ('huang123','###9b1f471d1512a02507f5b920f809bb8f','1216714825@qq.com','2018-03-21 14:44:25') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_role_user` [ RunTime:0.0006s ]
+SQL: INSERT INTO `jz_role_user` (`role_id`,`user_id`) VALUES ('1','27') [ RunTime:0.0003s ]
+
+[ 2018-03-21T14:44:25+08:00 ] 119.131.152.104 /Admin/user/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000560s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000572s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jz_users` WHERE `user_type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_type` = 1 ORDER BY create_time DESC LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_role`  [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
